@@ -1,0 +1,26 @@
+body{
+    margin: 5px;
+    display: flex;
+    background-image: url("./public/background.jpg");
+    background-size: cover;
+}
+.d0{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.d1{
+    flex:7;
+}
+#nav{
+    list-style: none;
+    cursor:pointer;
+}
+#nav li{
+    margin: 5px 5px;
+    color:rgb(4, 255, 4);
+}
+#nav li:hover{
+    background:green;
+}
